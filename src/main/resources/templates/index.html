@@ -23,9 +23,9 @@
                     </thead>
                     <tbody>
                     <tr  th:each="transport : ${listtransport}">
-                        <td th:text="${transport.station}">Employee Name</td>
-                        <td th:text="${transport.bus}">Mobile</td>
-                        <td th:text="${transport.time}">Salary</td>
+                        <td th:text="${transport.station}">Остановка</td>
+                        <td th:text="${transport.bus}">Автобус №</td>
+                        <td th:text="${transport.time}">Время до прибытия</td>
                     </tr>
                     </tbody>
                 </table>
